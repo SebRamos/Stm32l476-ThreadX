@@ -2,7 +2,7 @@
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR arm)
 
-# Temporary sto pagainst linkiing test executables during CMake Config
+# Temporary stop against linkiing test executables during CMake Config
 # Since we don't have startup code or linker script yet
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
